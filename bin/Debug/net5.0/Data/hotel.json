@@ -1,0 +1,155 @@
+[
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 89.99,
+    "Title": "Oasis Bedouin Camp",
+    "Description": "Boasting a casino and barbecue facilities, Oasis Bedouin Camp is situated in Wadi Rum, 5 km from Wadi Rum. Featuring a 24-hour front desk, this property also provides guests with a restaurant.",
+    "Rating": 3,
+    "imageName": "1"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 100,
+    "Title": "La Casa Hotel",
+    "Description": "Set in Amman, 4.4 km from Al Hussein National Park, La Casa Hotel - Amman offers accommodation with a restaurant, free private parking, a fitness centre and a spa and wellness centre.",
+    "Rating": 4.5,
+    "imageName": "2"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 90,
+    "Title": " Bubble LuxotelOpens in new window",
+    "Description": "With mountain views, Wadi Rum Bubble Luxotel is located in Wadi Rum and has a restaurant and a 24-hour front desk. Free WiFi is provided.",
+    "Rating": 5,
+    "imageName": "3"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 189.99,
+    "Title": "The St. Regis Amman",
+    "Description": "Situated in Amman, 3.9 km from Zahran Palace, The St. Regis Amman features accommodation with a restaurant, free private parking, an outdoor swimming pool and a fitness centre.",
+    "Rating": 4.6,
+    "imageName": "4"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 80,
+    "Title": "Wadi Rum UFO Luxotel",
+    "Description": "With mountain views, Wadi Rum UFO Luxotel is located in Wadi Rum and has a restaurant and a 24-hour front desk. Free WiFi is provided.",
+    "Rating": 3,
+    "imageName": "5"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 99,
+    "Title": "W Amman HotelOpens in new window",
+    "Description": "Located in the heart of Abdali, Amman’s up and coming new downtown - W Amman Hotel uniquely stands tall as a contemporary and bold architectural statement, offering stunning views of bustling city’s...",
+    "Rating": 4.2,
+    "imageName": "6"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 85,
+    "Title": "WADI RUM STAR WARS CAMPOpens in new window",
+    "Description": "WADI RUM STAR WARS CAMP is a 3-star property situated in Wadi Rum. Boasting a 24-hour front desk, this property also provides guests with a restaurant.",
+    "Rating": 4,
+    "imageName": "7"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 119,
+    "Title": "Fairmont AmmanOpens in new window",
+    "Description": "Ideally located on the Firth circle and within walking distance of Abdoun, the five star deluxe Fairmont Amman hotel offers contemporary design and unparalleled views of the stunning Amman hills.",
+    "Rating": 2.8,
+    "imageName": "8"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 99,
+    "Title": "Wadi Rum Magic Nature Camp",
+    "Description": "Offering a terrace, Wadi Rum Magic Nature Camp offers accommodation in Wadi Rum. The camping offers a buffet or halal breakfast.",
+    "Rating": 5,
+    "imageName": "9"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 189,
+    "Title": "Four Seasons Hotel AmmanOpens in new window",
+    "Description": "Located on the highest hill of Amman, Four Seasons Hotel Amman boasts luxurious accommodation with panoramic views of the city. It offers indoor and outdoor pools, a gym, a spa and a squash court.",
+    "Rating": 5,
+    "imageName": "10"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 88,
+    "Title": "Hasan Zawaideh Camp",
+    "Description": "Set among the red dunes of Wadi Rum, Hasan Zawaideh Camp offers private and shared Bedouin-style tents and an excellent location to explore the Jordanian Desert.",
+    "Rating": 3.8,
+    "imageName": "11"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 110,
+    "Title": "Grand Hyatt Amman",
+    "Description": "Conveniently located in the heart of the city, this 5-star hotel offers a carved pink stone façade, city views, luxurious rooms with satellite TV.",
+    "Rating": 4.9,
+    "imageName": "12"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 95,
+    "Title": "Wadi Rum Night Luxury Camp",
+    "Description": "Located in the heart of Wadi Rum protected area, each tent is completed with comfortable beds, Bedouin sofa, mirrors, lamps, and the finest bed linens.",
+    "Rating": 4.7,
+    "imageName": "13"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 120,
+    "Title": "Mövenpick Hotel AmmanOpens in new window",
+    "Description": "The high-rise Mövenpick Hotel Amman is set in a business district near government offices; the property is 30 minutes' drive from exhibitions at Amman International Fair and a comfortable base for...",
+    "Rating": 4.4,
+    "imageName": "14"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 70,
+    "Title": "Rum Stars camp",
+    "Description": "Rum Stars camp provides accommodation in the Wadi Rum Protected area. The property is set 7 km from Wadi Rum. The tour desk is available to assist guests in planning their days out.",
+    "Rating": 2.4,
+    "imageName": "15"
+  },
+  {
+    "Id": 0,
+    "Category": "Amman",
+    "Price": 149,
+    "Title": "Landmark Amman Hotel & Conference Center",
+    "Description": "The elegant Landmark Amman Hotel & Conference Center is located in the heart of the diplomatic and business districts of Amman. It offers free Wi-Fi, an outdoor pool, and a fitness center.",
+    "Rating": 3.9,
+    "imageName": "16"
+  },
+  {
+    "Id": 0,
+    "Category": "Wadi Rum",
+    "Price": 88,
+    "Title": "Rum AngelOpens in new window",
+    "Description": "Set in Wadi Rum, Rum Angel offers free WiFi, and guests can enjoy a shared lounge, a garden and a terrace. Units come with a kitchen with a dining area, and a private bathroom with slippers and bidet....",
+    "Rating": 4.6,
+    "imageName": "17"
+  }
+]

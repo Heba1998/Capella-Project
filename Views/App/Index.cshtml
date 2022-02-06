@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Product>
+<h1>All Hotel 🏨</h1>
+<p>Count: @Model.Count()</p>
+<div class="row">
+  @foreach (var p in Model)
+  {
+  <div class="col-6" style="height:600px">
+    <div class="border bg-light rounded p-1" style="height:500px">
+      <img src="~/img/@(p.imageName).jpg" class="img-fluid" alt="@p.imageName"  style="height:288px; width:100%" />
+      <ul class="products-props">
+        <li>Price: $@p.Price</li>
+        <li>Title: @p.Title </li>
+        <li>Description: @p.Description</li>
+         <li>Rating: @p.Rating</li>
+      </ul>
+    </div>
+  </div>
+  }
+</div>
