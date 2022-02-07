@@ -12,12 +12,10 @@ namespace DutchTreat.Controllers
 {
   public class AppController : Controller
   {
-    private readonly IMailService _mailService;
     private readonly IDutchRepository _repository;
 
-    public AppController(IMailService mailService, IDutchRepository repository)
+    public AppController(IDutchRepository repository)
     {
-      _mailService = mailService;
       _repository = repository;
     }
 
