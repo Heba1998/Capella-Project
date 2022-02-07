@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DutchTreat.Migrations
 {
     [DbContext(typeof(DutchContext))]
-    [Migration("20220206215653_SeedData")]
-    partial class SeedData
+    [Migration("20220207074911_InitialDb")]
+    partial class InitialDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -20,14 +20,20 @@ namespace DutchTreat.Data
     public IEnumerable<Product> GetAllProducts()
     {
         return _ctx.Products
-                .OrderBy(p => p.Id)
+                .OrderBy(p => p.imageName)
                    .ToList();
 
     }
 
-   
+    public IEnumerable<Product> GetProductsByCategory(string Search)
+    {
+        return _ctx.Products
+                    .Where(p => p.Category == Search)
+                    .ToList();
+    }
 
-    public bool SaveAll()
+
+        public bool SaveAll()
     {
       return _ctx.SaveChanges() > 0;
     }

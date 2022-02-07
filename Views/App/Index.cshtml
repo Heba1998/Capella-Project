@@ -1,7 +1,18 @@
 ﻿@model IEnumerable<Product>
 <h1>All Hotel 🏨</h1>
 <p>Count: @Model.Count()</p>
-<div class="row">
+<form asp-action="Index" method="get">
+    <div>
+        <p>
+            input place <input type="text" name="Search" value="" /> 
+            <input type="submit" value="Search" class="btn btn-info"  /> |
+            <a asp-action="Index" > Remove filter</a>
+        </p>
+    </div>
+
+</form>
+<div class="row" >
+    
   @foreach (var p in Model)
   {
   <div class="col-6" style="height:600px">
