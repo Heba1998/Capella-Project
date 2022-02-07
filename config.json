@@ -3,7 +3,7 @@
     "Favorite": "Blue"
   },
   "ConnectionStrings": {
-    "DutchConnectionString": "Data Source=(localdb)\\ProjectModels;Database=bookingApp;Integrated Security=True;MultipleActiveResultSets=true;"
+    "DutchConnectionString": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=bookingApp;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true;"
   },
   "Logging": {
     "LogLevel": {

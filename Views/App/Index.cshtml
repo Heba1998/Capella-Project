@@ -1,19 +1,38 @@
 ﻿@model IEnumerable<Product>
 <h1>All Hotel 🏨</h1>
 <p>Count: @Model.Count()</p>
-<div class="row">
-  @foreach (var p in Model)
-  {
-  <div class="col-6" style="height:600px">
-    <div class="border bg-light rounded p-1" style="height:500px">
-      <img src="~/img/@(p.imageName).jpg" class="img-fluid" alt="@p.imageName"  style="height:288px; width:100%" />
-      <ul class="products-props">
-        <li>Price: $@p.Price</li>
-        <li>Title: @p.Title </li>
-        <li>Description: @p.Description</li>
-         <li>Rating: @p.Rating</li>
-      </ul>
+<form asp-action="Index" method="get">
+    <div>
+        <p>
+            <label>
+                <h3 style="display:inline-block">
+                    choose location
+                </h3>
+            </label> 
+            <select name="Search" id="Search" class="btn btn-secondary dropdown-toggle">
+                \<option value="">Select option</option>
+                <option value="Amman">Amman</option>
+                <option value="Wadi Rum">Wadi Rum</option>
+            </select>
+            <input type="submit" value="Search" class="btn btn-info" />
+            <a asp-action="Index" class="btn btn-danger"> Remove filter</a>
+        </p>
     </div>
-  </div>
-  }
+
+</form>
+<div class="row">
+    @foreach (var p in Model)
+    {
+        <div class="col-6" style="height:600px">
+            <div class="border bg-light rounded p-1" style="height:500px">
+                <img src="~/img/@(p.imageName).jpg" class="img-fluid" alt="@p.imageName" style="height:288px; width:100%" />
+                <ul class="products-props">
+                    <li>Price: $@p.Price</li>
+                    <li>Title: @p.Title </li>
+                    <li>Description: @p.Description</li>
+                    <li>Rating: @p.Rating</li>
+                </ul>
+            </div>
+        </div>
+    }
 </div>

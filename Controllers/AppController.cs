@@ -21,11 +21,16 @@ namespace DutchTreat.Controllers
       _repository = repository;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(string Search)
     {
-      var results = _repository.GetAllProducts();
-
-      return View(results);
+            if (!String.IsNullOrEmpty(Search))
+            {
+                return View(_repository.GetProductsByCategory(Search));
+            }
+            else
+            {
+      return View(_repository.GetAllProducts());
+            }
     }
   }
 }
